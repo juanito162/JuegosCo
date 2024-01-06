@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playpen', sans-serif;
+}
+
+header nav {
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+header nav .unlisted-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    align-items: center;
+}
+
+header nav .unlisted-nav li {
+    list-style: none;
+}
+
+header nav .unlisted-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav .unlisted-nav li .flower-blue:hover {
+    transition: 0.5s;
+    color: cornflowerblue;
+}
+
+header nav .unlisted-nav li .crimson:hover {
+    transition: 0.5s;
+    color: crimson;
+}
+
+header nav .unlisted-nav li .sea-green:hover {
+    transition: 0.5s;
+    color: seagreen;
+}
+
+header nav .unlisted-nav li .dark-grey:hover {
+    transition: 0.5s;
+    color: darkgray;
+}
+
+
+header nav .unlisted-nav .item img {
+    width: 50px;
+    height: 50px;
+}
+
+/*content body*/
+
+main{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+main .container{
+    display: flex;
+}
+
+/*filters*/
+
+main .container .filter{
+    width: 20%;
+    height: 70vh;
+}
+
+/*input filters*/
+
+main .container .filter .filter-content .options{
+    margin-top: 5px;
+}
+
+/*Ancors filters*/
+
+main .container .filter .ancors{
+    margin-top: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main .container .filter .ancors .ancor-filter{
+    display: flex;
+    flex-grow: 1;
+}
+
+main .container .filter .ancors a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: gray;
+}

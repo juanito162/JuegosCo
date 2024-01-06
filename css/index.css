@@ -1,0 +1,602 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playpen', sans-serif;
+}
+
+header {
+    background: url('https://www.destreaming.es/wp-content/uploads/2020/09/5-ways-to-pimp-out-your-living-room-for-ultimate-gaming.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+header nav {
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+header nav .unlisted-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    align-items: center;
+}
+
+header nav .unlisted-nav li {
+    list-style: none;
+}
+
+header nav .unlisted-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav .unlisted-nav li .flower-blue:hover {
+    transition: 0.5s;
+    color: cornflowerblue;
+}
+
+header nav .unlisted-nav li .crimson:hover {
+    transition: 0.5s;
+    color: crimson;
+}
+
+header nav .unlisted-nav li .sea-green:hover {
+    transition: 0.5s;
+    color: seagreen;
+}
+
+header nav .unlisted-nav li .dark-grey:hover {
+    transition: 0.5s;
+    color: darkgray;
+}
+
+
+header nav .unlisted-nav .item img {
+    width: 50px;
+    height: 50px;
+}
+
+header .logo {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 15px;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+header .title-header {
+    color: #ABB2B9 ;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header .logo .ancor {
+    margin-top: 30px;
+}
+
+header .logo .ancor a {
+    padding: 5px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+header .logo .ancor a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+/*section 1*/
+
+.container{
+    margin-top: 8rem;
+}
+
+.container .title-container{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container .section-1 .body-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .section-1 .body-section .item-section {
+    width: 30em;
+    height: 15em;
+    margin: 0 1em;
+    position: relative;
+    background: url('https://wallpapercave.com/wp/wp4043151.jpg') center;
+    background-size: cover;
+    color: white;
+    border-radius: 18px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+
+.container .section-1 .body-section .part-2{
+    width: 30em;
+    height: 15em;
+    margin: 0 1em;
+    position: relative;
+    background: url('https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$') center;
+    background-size: cover;
+    color: white;
+    border-radius: 18px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+
+.container .section-1 .body-section .item-section .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 123, 0, 0.8);
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 18px;
+}
+
+.container .section-1 .body-section .item-section:hover .overlay {
+    opacity: 1;
+}
+
+.container .section-1 .body-section .item-section:hover .overlay .btn {
+    padding: 0.6em 1.3em;
+    text-decoration: none;
+    color: white;
+    border: 2px white solid;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}
+
+.container .section-1 .body-section .item-section:hover .overlay .btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.container .section-1 .body-section .item-section:hover .btn,
+.container .section-1 .body-section .item-section:hover h1 {
+    transition: 0.3;
+    transform: translateY(-20px);
+}
+
+.container .section-1 .body-section .item-section:hover .btn,
+.container .section-1 .body-section .item-section:hover h1{
+    transform: translateY(0);
+}
+
+/*section2*/
+
+.container .section-2 .body-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .section-2 .body-section .item-section{
+    width: 30em;
+    height: 15em;
+    margin: 0 1em;
+    position: relative;
+    background: url('https://i.ytimg.com/vi/h3W4GaCjcdg/maxresdefault.jpg') center;
+    background-size: cover;
+    color: white;
+    border-radius: 18px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+
+.container .section-2 .body-section .part-3{
+    width: 30em;
+    height: 15em;
+    margin: 0 1em;
+    position: relative;
+    background: url('https://m.media-amazon.com/images/I/81ekaxyGn-L._AC_UF1000,1000_QL80_.jpg') center;
+    background-size: cover;
+    color: white;
+    border-radius: 18px;
+    box-shadow: #000 0px 11px 15px 0px;
+}
+
+.container .section-2 .body-section .item-section .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 123, 0, 0.8);
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 18px;
+}
+
+.container .section-2 .body-section .item-section:hover .overlay {
+    opacity: 1;
+}
+
+.container .section-2 .body-section .item-section:hover .overlay .btn {
+    padding: 0.6em 1.3em;
+    text-decoration: none;
+    color: white;
+    border: 2px white solid;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}
+
+.container .section-2 .body-section .item-section:hover .overlay .btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.container .section-2 .body-section .item-section:hover .btn,
+.container .section-2 .body-section .item-section:hover h1 {
+    transition: 0.3;
+    transform: translateY(-20px);
+}
+
+.container .section-2 .body-section .item-section:hover .btn,
+.container .section-2 .body-section .item-section:hover h1{
+    transform: translateY(0);
+}
+
+/*consoles cards*/
+
+.consoles{
+    margin-top: 150px;
+}
+.consoles .title-consoles{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.consoles .title-consoles p{
+    margin-top: 10px;
+}
+
+.consoles .xbox{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.consoles .xbox img{
+    width: 350px;
+    height: 200px;
+}
+
+.consoles .wrapper, .single-card{
+    height: 450px;
+    max-width: 500px;
+    position: relative;
+}
+
+.wrapper{
+    perspective: 900px;
+}
+
+.single-card{
+    text-align: center;
+    transition: all 1.5 cubic-bezier(0.7, -.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper:hover .single-card{
+    transform: rotateY(180deg);
+}
+
+.front, .back{
+    width: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.consoles .xbox .front{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('https://news.xbox.com/es-latam/wp-content/uploads/sites/4/2020/09/XSX_XSS_Design_HERO.jpg');
+    backface-visibility: hidden;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.back{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    height: 450px;
+    background: white;
+}
+
+.content{
+    padding-top: 25%;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.content h4{
+    margin: 0;
+}
+
+.icon i{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/*play station card*/
+
+.consoles .play-station{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.consoles .play-station .logo img{
+    width: 350px;
+    height: 200px;
+}
+
+.consoles .wrapper-play, .single-card-play{
+    height: 450px;
+    max-width: 500px;
+    position: relative;
+}
+
+.wrapper-play{
+    perspective: 900px;
+}
+
+.single-card-play{
+    text-align: center;
+    transition: all 1.5 cubic-bezier(0.7, -.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper-play:hover .single-card-play{
+    transform: rotateY(180deg);
+}
+
+.front, .back{
+    width: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.consoles .play-station .front{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('https://elcomercio.pe/resizer/6xga9c2wEdmOq-GRiQdLZFmJDJI=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LXVIWBAR35DVVK4RP5TUZKEDHY.png');
+    backface-visibility: hidden;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.back{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    height: 450px;
+    background: white;
+}
+
+.content{
+    padding-top: 25%;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.content h4{
+    margin: 0;
+}
+
+.icon i{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/*ninitendo Switch*/
+
+.consoles .nintendo-switch{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.consoles .nintendo-switch .logo img{
+    width: 350px;
+    height: 200px;
+}
+
+.consoles .wrapper-nintendo, .single-card-nintendo{
+    height: 450px;
+    max-width: 500px;
+    position: relative;
+}
+
+.wrapper-nintendo{
+    perspective: 900px;
+}
+
+.single-card-nintendo{
+    text-align: center;
+    transition: all 1.5 cubic-bezier(0.7, -.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper-nintendo:hover .single-card-nintendo{
+    transform: rotateY(180deg);
+}
+
+.front, .back{
+    width: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.consoles .nintendo-switch .front{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('https://falabella.scene7.com/is/image/FalabellaCO/gsc_118315403_2051977_1?wid=800&hei=800&qlt=70');
+    backface-visibility: hidden;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.back{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    height: 450px;
+    background: white;
+}
+
+.content{
+    padding-top: 25%;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.content h4{
+    margin: 0;
+}
+
+.icon i{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/*footer*/
+
+footer .container-footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+
+footer .container-footer .body-container{
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #1C2833;
+}
+
+/*footer logo*/
+
+footer .container-footer .body-container .logo-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer .container-footer .body-container .logo-content img{
+    width: 200px;
+    height: 150px;
+}
+
+/*footer list about us*/
+
+footer .container-footer .body-container .list ul{
+    list-style: none;
+}
+
+footer .container-footer .body-container .list ul li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer .container-footer .body-container .list ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*footer social netwokrs*/
+
+footer .container-footer .body-container .social-networks ul{
+    list-style: none;
+}
+
+footer .container-footer .body-container .social-networks ul li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer .container-footer .body-container .social-networks ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .container-footer .copy-right{
+    padding: 20px 0;
+    text-align: center;
+    background: #273746 ;
+    font-weight: bold;
+    color: white;
+}
+
+/*footer social networks hover*/
+
+footer .container-footer .body-container .social-networks ul li .facebook:hover{
+    color: #2E86C1;
+}
+
+footer .container-footer .body-container .social-networks ul li .instagram:hover{
+    color: #8E44AD ;
+}
+
+footer .container-footer .body-container .social-networks ul li .tiktok:hover{
+    color: #17202A ;
+}
+
+footer .container-footer .body-container .social-networks ul li .youtube:hover{
+    color: #CD1818  ;
+}
