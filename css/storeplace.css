@@ -59,44 +59,104 @@ header nav .unlisted-nav .item img {
 
 /*content body*/
 
-main{
+main {
     margin-top: 30px;
     padding: 0 20px;
 }
 
-main .container{
+main .container {
     display: flex;
 }
 
 /*filters*/
 
-main .container .filter{
+main .container .filter {
     width: 20%;
     height: 70vh;
 }
 
 /*input filters*/
 
-main .container .filter .filter-content .options{
+main .container .filter .filter-content .options {
     margin-top: 5px;
 }
 
 /*Ancors filters*/
 
-main .container .filter .ancors{
+main .container .filter .ancors {
     margin-top: 10px;
     height: 50vh;
     display: flex;
     flex-direction: column;
 }
 
-main .container .filter .ancors .ancor-filter{
+main .container .filter .ancors .ancor-filter {
     display: flex;
     flex-grow: 1;
 }
 
-main .container .filter .ancors a{
+main .container .filter .ancors a {
     margin-top: 10px;
     text-decoration: none;
     color: gray;
+}
+
+/*articles*/
+
+main .container .articles {
+    width: 100%;
+}
+
+main .container .articles .container-articles {
+    display: flex;
+    height: 40vh;
+    cursor: pointer;
+}
+
+main .container .articles .container-articles .image img {
+    width: 280px;
+    height: 250px;
+}
+
+main .container .articles .container-articles .description {
+    padding: 10px 0;
+}
+
+main .container .articles .container-articles .description .name-of-article h3 {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+main .container .articles .container-articles .description .publisher {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+main .container .articles .container-articles .description .opinions {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+main .container .articles .container-articles .description .opinions p {
+    margin-left: 7px;
+}
+
+main .container .articles .container-articles .description .price{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    height: 30px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+main .container .articles .container-articles .description .price p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
 }

@@ -1,0 +1,203 @@
+[33mcommit 2c551e341a352141457e78299090db6ffc900639[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Juan Esteban Anaya Martinez <anaya038juan@gmail.com>
+Date:   Sat Jan 6 16:32:29 2024 -0500
+
+    esta es la primer version de mi proyecto personal
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f1dc539[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,190 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="css/index.css">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.googleapis.com">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[32m+[m[32m    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"[m
+[32m+[m[32m        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="[m
+[32m+[m[32m        crossorigin="anonymous" referrerpolicy="no-referrer" />[m
+[32m+[m[32m    <link[m
+[32m+[m[32m        href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;500;700&family=Quicksand:wght@300;500;700&display=swap"[m
+[32m+[m[32m        rel="stylesheet">[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <nav>[m
+[32m+[m[32m            <ul class="unlisted-nav">[m
+[32m+[m[32m                <li class="item"><a href="#" class="flower-blue">Home</a></li>[m
+[32m+[m[32m                <li class="item"><a href="#" class="crimson">Games</a></li>[m
+[32m+[m[32m                <li class="item"><img src="https://cdn-icons-png.flaticon.com/512/4151/4151374.png" alt=""></li>[m
+[32m+[m[32m                <li class="item"><a href="consoles-xbox.html" class="sea-green">Consoles</a></li>[m
+[32m+[m[32m                <li class="item"><a href="login.html" class="dark-grey">Login</a></li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m        </nav>[m
+[32m+[m[32m        <div class="logo">[m
+[32m+[m[32m            <h1 class="title-header"> Welcome to the place where you will find everything in consoles and video games,[m
+[32m+[m[32m                Juegos co.</h1>[m
+[32m+[m[32m            <div class="ancor">[m
+[32m+[m[32m                <a href="#">[m
+[32m+[m[32m                    let's start[m
+[32m+[m[32m                </a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </header>[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m        <div class="container">[m
+[32m+[m[32m            <h1 class="title-container">Our Categories</h1>[m
+[32m+[m[32m            <section class="section-1">[m
+[32m+[m[32m                <div class="body-section">[m
+[32m+[m[32m                    <div class="item-section">[m
+[32m+[m[32m                        <div class="overlay">[m
+[32m+[m[32m                            <h1>Controls</h1>[m
+[32m+[m[32m                            <a href="#" class="btn">View Controls</a>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="item-section part-2">[m
+[32m+[m[32m                        <div class="overlay">[m
+[32m+[m[32m                            <h1>Consoles</h1>[m
+[32m+[m[32m                            <a href="storeplace.html" class="btn">View Consoles</a>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </section>[m
+[32m+[m[32m            <section class="section-2">[m
+[32m+[m[32m                <div class="body-section">[m
+[32m+[m[32m                    <div class="item-section">[m
+[32m+[m[32m                        <div class="overlay">[m
+[32m+[m[32m                            <h1>Games</h1>[m
+[32m+[m[32m                            <a href="#" class="btn">View Games</a>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="item-section part-3">[m
+[32m+[m[32m                        <div class="overlay">[m
+[32m+[m[32m                            <h1>Accesories</h1>[m
+[32m+[m[32m                            <a href="#" class="btn">View Accesories</a>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </section>[m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[32m        <div class="consoles">[m
+[32m+[m
+[32m+[m[32m            <div class="title-consoles">[m
+[32m+[m[32m                <h1>The best-selling consoles on the market</h1>[m
+[32m+[m[32m                <p>For more information please hover over the images.</p>[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <section class="xbox">[m
+[32m+[m[32m                <div class="logo">[m
+[32m+[m[32m                    <img src="https://1000marcas.net/wp-content/uploads/2020/03/logo-Xbox.png" alt="">[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="wrapper">[m
+[32m+[m[32m                    <div class="single-card">[m
+[32m+[m[32m                        <div class="front"></div>[m
+[32m+[m[32m                        <div class="back">[m
+[32m+[m[32m                            <div class="content">[m
+[32m+[m[32m                                <h2>Xbox series X/S</h2>[m
+[32m+[m[32m                                <h4>Ready for adventures</h4>[m
+[32m+[m[32m                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore a molestias[m
+[32m+[m[32m                                    voluptatum[m
+[32m+[m[32m                                    cumque voluptatem rerum adipisci, corrupti recusandae similique ut quia harum ea[m
+[32m+[m[32m                                    quisquam beatae nobis possimus explicabo magni repudiandae.</p>[m
+[32m+[m[32m                                <p class="icon">[m
+[32m+[m[32m                                    <i class="fa-brands fa-xbox"></i>[m
+[32m+[m[32m                                </p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </section>[m
+[32m+[m
+[32m+[m[32m            <section class="play-station">[m
+[32m+[m[32m                <div class="logo">[m
+[32m+[m[32m                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PlayStation_logo.svg/1280px-PlayStation_logo.svg.png"[m
+[32m+[m[32m                        alt="">[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="wrapper-play">[m
+[32m+[m[32m                    <div class="single-card-play">[m
+[32m+[m[32m                        <div class="front"></div>[m
+[32m+[m[32m                        <div class="back">[m
+[32m+[m[32m                            <div class="content">[m
+[32m+[m[32m                                <h2>Play Station 5</h2>[m
+[32m+[m[32m                                <h4>be moved by the fascinating stories</h4>[m
+[32m+[m[32m                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quis ullam nisi et quas[m
+[32m+[m[32m                                    recusandae ea tempora perspiciatis vel modi ducimus esse sit, fugiat repudiandae? Et[m
+[32m+[m[32m                                    itaque eligendi ad obcaecati.</p>[m
+[32m+[m[32m                                <p class="icon">[m
+[32m+[m[32m                                    <i class="fa-brands fa-playstation"></i>[m
+[32m+[m[32m                                </p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </section>[m
+[32m+[m
+[32m+[m[32m            <section class="nintendo-switch">[m
+[32m+[m[32m                <div class="logo">[m
+[32m+[m[32m                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Nintendo_Switch_Logo_%28without_text%29.svg"[m
+[32m+[m[32m                        alt="">[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="wrapper-nintendo">[m
+[32m+[m[32m                    <div class="single-card-nintendo">[m
+[32m+[m[32m                        <div class="front"></div>[m
+[32m+[m[32m                        <div class="back">[m
+[32m+[m[32m                            <div class="content">[m
+[32m+[m[32m                                <h2>Nintendo Switch</h2>[m
+[32m+[m[32m                                <h4>The best of the franchise in the palm of your hand and wherever you want to take it</h4>[m
+[32m+[m[32m                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium doloremque[m
+[32m+[m[32m                                    placeat aut, incidunt delectus consequatur velit enim fugiat? Rerum provident soluta[m
+[32m+[m[32m                                    placeat veniam error ducimus cumque necessitatibus illum iusto quas.</p>[m
+[32m+[m[32m                                <p class="icon">[m
+[32m+[m[32m                                    <i class="fa-brands fa-playstation"></i>[m
+[32m+[m[32m                                </p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </section>[m
+[32m+[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </main>[m
+[32m+[m
+[32m+[m[32m    <footer>[m
+[32m+[m[32m        <div class="container-footer">[m
+[32m+[m[32m            <div class="body-container">[m
+[32m+[m[32m                <div class="logo-content">[m
+[32m+[m[32m                    <img src="https://cdn-icons-png.flaticon.com/512/4151/4151374.png" alt="">[m
+[32m+[m[32m                    <span>Juegos.co</span>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="list">[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li><a href="#">About us</a></li>[m
+[32m+[m[32m                        <li><a href="#">Contact us</a></li>[m
+[32m+[m[32m                        <li><a href="#">Our legal regime</a></li>[m
+[32m+[m[32m                        <li><a href="#">Our location</a></li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="social-networks">[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li><a href="#" class="facebook"><i class="fa-brands fa-facebook"></i>Facebook</a></li>[m
+[32m+[m[32m                        <li><a href="#" class="instagram"><i class="fa-brands fa-square-instagram"></i>Instagram</a></li>[m
+[32m+[m[32m                        <li><a href="#" class="tiktok"><i class="fa-brands fa-tiktok"></i></i>Tiktok</a></li>[m
+[32m+[m[32m                        <li><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i>Youtube</a></li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="copy-right">[m
+[32m+[m[32m                <span>all right reserves &copy; Juegos.co</span>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </footer>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
