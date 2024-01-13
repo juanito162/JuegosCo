@@ -161,6 +161,43 @@ main .container .articles .container-articles .description .price p{
     margin-left: 20px;
 }
 
+/*paginate*/
+
+main .paginate{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+main .paginate .showing{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+main .paginate .showing {
+    color: gray;
+    font-size: 15px;
+}
+
+main .paginate .paginate-content{
+    display: flex;
+    justify-content: center;
+
+}
+
+main .paginate .paginate-content ul{
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+main .paginate .paginate-content ul li{
+    cursor: pointer;
+}
+
 /*footer*/
 
 footer .container-footer{
