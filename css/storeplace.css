@@ -160,3 +160,91 @@ main .container .articles .container-articles .description .price p{
     font-size: 20px;
     margin-left: 20px;
 }
+
+/*footer*/
+
+footer .container-footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+
+footer .container-footer .body-container{
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #1C2833;
+}
+
+/*footer logo*/
+
+footer .container-footer .body-container .logo-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer .container-footer .body-container .logo-content img{
+    width: 200px;
+    height: 150px;
+}
+
+/*footer list about us*/
+
+footer .container-footer .body-container .list ul{
+    list-style: none;
+}
+
+footer .container-footer .body-container .list ul li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer .container-footer .body-container .list ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*footer social netwokrs*/
+
+footer .container-footer .body-container .social-networks ul{
+    list-style: none;
+}
+
+footer .container-footer .body-container .social-networks ul li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer .container-footer .body-container .social-networks ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .container-footer .copy-right{
+    padding: 20px 0;
+    text-align: center;
+    background: #273746 ;
+    font-weight: bold;
+    color: white;
+}
+
+/*footer social networks hover*/
+
+footer .container-footer .body-container .social-networks ul li .facebook:hover{
+    color: #2E86C1;
+}
+
+footer .container-footer .body-container .social-networks ul li .instagram:hover{
+    color: #8E44AD ;
+}
+
+footer .container-footer .body-container .social-networks ul li .tiktok:hover{
+    color: #17202A ;
+}
+
+footer .container-footer .body-container .social-networks ul li .youtube:hover{
+    color: #CD1818  ;
+}
