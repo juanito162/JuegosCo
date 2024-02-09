@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playpen', sans-serif;
+}
+
+.principal-container {
+    display: flex;
+    height: 100vh;
+}
+
+.principal-container .navbar {
+    -webkit-box-shadow: 8px 2px 0px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 2px 0px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 2px 0px -7px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/*hamburger menu*/
+
+.principal-container .navbar .hamburger-menu{
+    margin-left: 8px;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*user settings*/
+
+.principal-container .navbar .menu {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.principal-container .navbar .menu .item{
+    padding: 10px 0;
+}
+
+.principal-container .navbar .menu .item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 8px;
+    margin-left: 8px;
+    height: 20px;
+
+}
+
+.principal-container .navbar .menu .item:hover {
+    background-color: lightblue;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.principal-container .navbar .menu .item {
+    margin-top: 8px;
+}
+
+/*logout*/
+
+.principal-container .logout{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
