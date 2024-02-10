@@ -14,24 +14,26 @@ body {
 }
 
 .principal-container .navbar {
-    -webkit-box-shadow: 8px 2px 0px -7px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 8px 2px 0px -7px rgba(0, 0, 0, 0.75);
-    box-shadow: 8px 2px 0px -7px rgba(0, 0, 0, 0.75);
-    position: sticky;
     width: 15%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background-color: darkcyan;
+    color: white;
 }
 
 /*hamburger menu*/
 
-.principal-container .navbar .hamburger-menu{
+.principal-container .navbar .hamburger-menu {
     margin-left: 8px;
     font-size: 30px;
     margin-top: 10px;
     width: 100%;
+}
+
+.principal-container .navbar .hamburger-menu p {
+    margin-top: 35px;
 }
 
 /*user settings*/
@@ -44,13 +46,13 @@ body {
     justify-content: space-evenly;
 }
 
-.principal-container .navbar .menu .item{
+.principal-container .navbar .menu .item {
     padding: 10px 0;
 }
 
 .principal-container .navbar .menu .item a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     margin-right: 8px;
@@ -71,7 +73,7 @@ body {
 
 /*logout*/
 
-.principal-container .logout{
+.principal-container .logout {
     margin-top: 10px;
     margin-left: 8px;
     font-size: 20px;
@@ -79,4 +81,55 @@ body {
     font-size: 18px;
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+/*user profile*/
+
+.principal-container .principal {
+    width: 85%;
+    padding: 0 30px;
+}
+
+.principal-container .principal .info-user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal-container .principal .info-user .avatar {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.principal-container .principal .info-user h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*specific information*/
+
+.principal-container .principal .information-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.principal-container .principal .information-container .user-especification {
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
 }
