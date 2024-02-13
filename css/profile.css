@@ -166,3 +166,35 @@ body {
     -moz-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
 }
+
+.principal-container .principal .information-container .user-payment .credits-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.principal-container .principal .information-container .user-payment .credits-cards h2{
+    text-align: center;
+}
+
+.principal-container .principal .information-container .user-payment .credits-cards ul{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.principal-container .principal .information-container .user-payment .credits-cards ul li{
+    font-size: 18px;
+}
+
+.principal-container .principal .information-container .user-payment .credits-cards ul li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
