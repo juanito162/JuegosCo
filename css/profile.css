@@ -112,7 +112,6 @@ body {
 }
 
 /*specific information*/
-
 .principal-container .principal .information-container {
     width: 100%;
     display: flex;
@@ -120,11 +119,45 @@ body {
     justify-content: space-between;
 }
 
+.principal-container .principal .information-container{
+    margin-top: 100px;
+}
+
 .principal-container .principal .information-container .user-especification {
     height: 40vh;
-    width: 50vh;
+    width: 45%;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.principal-container .principal .information-container .user-especification ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.principal-container .principal .information-container .user-especification ul li{
+    font-size: 18px;
+}
+
+/*payments methods*/
+
+.principal-container .principal .information-container .user-payment{
+    height: 40vh;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     padding: 15px;
