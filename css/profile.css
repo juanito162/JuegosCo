@@ -198,3 +198,44 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
+.principal-container .principal .shopping{
+    padding: 10px;
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 2px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.principal-container .principal .shopping h2{
+    text-align: center;
+}
+
+.principal-container .principal .shopping .container{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.principal-container .principal .shopping .container .list{
+    margin-top: 10px;
+}
+
+.principal-container .principal .shopping .container .list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+    align-items: center;
+}
+
+.principal-container .principal .shopping .container .list ul li img{
+    width: 50px;
+    height: 50px;
+}
